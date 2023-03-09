@@ -3,8 +3,10 @@
 }
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 .main{
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +32,7 @@ body{
 }
 .header{
     display: flex;
-    height: 20vh;
+    height: 10vh;
     align-items: center;
     justify-content: center;
     width: 90%;
@@ -45,4 +47,9 @@ body{
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+.menu-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
 }
